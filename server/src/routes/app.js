@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-const userRouter = require("./user.route")
+const noteRouter = require("./note.route")
 app.use(express.json());
 
-app.use("/api/users", userRouter)
+app.use("/api/notes", noteRouter)
 
 module.exports = app
