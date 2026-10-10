@@ -1,8 +1,4 @@
-// getUsers
-// getSingleUser
-// createUser
-// deleteUser
-// updateUser
+
 
 const Note = require("../models/Note")
 
